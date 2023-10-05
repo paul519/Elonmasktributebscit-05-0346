@@ -1,0 +1,93 @@
+.title {
+    font-size: 36px; 
+    color: #e128fa; 
+    text-align: center;
+    text-transform: uppercase; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+    border-bottom: 2px solid #e128fa; 
+    padding-bottom: 10px; 
+    margin-top: 20px; 
+    animation: zoom3d 5s ease-in-out infinite alternate;
+    transform-style: preserve-3d;
+    
+} @keyframes zoom3d {
+    0% {
+        transform: scale3d(1, 1, 1) translateZ(0);
+    }
+    100% {
+        transform: scale3d(1.1, 1.1, 1.1) translateZ(50px);
+    }
+}
+.image-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    zoom: 10px;
+    
+}
+
+
+.image {
+    width: 200px; 
+    height: 200px; 
+   
+}
+.subtitle {
+    font-size: 28px; 
+    color: #e128fa; 
+    margin-top: 10px; 
+    font-weight: bold; 
+    
+}
+.paragraph1 {
+    font-size: 20px; 
+    color: rgb(168, 164, 164); 
+    margin-top: 20px; 
+    line-height: 1.4; 
+}
+footer {
+    background-color: rgb(241, 117, 231); 
+    color: rgb(26, 21, 21);  
+    padding: 20px;
+    text-align: center; 
+}
+footer a {
+    color: #fff; 
+    text-decoration: underline; 
+}
+body {
+    background-image: url('elon1.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    backdrop-filter: blur(5px);
+    
+}
+header {
+    background-image: url('elon1.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    backdrop-filter: blur(5px);
+}
+
+/* Style for the logo */
+.logo {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Style for the navigation menu */
+nav {
+    margin-top: 10px; /* Add top margin for spacing */
+}
+
+/* Style for navigation links */
+nav a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underlines from links */
+    margin: 0 10px; /* Add margin between links */
+}
